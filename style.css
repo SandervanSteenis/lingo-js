@@ -55,15 +55,19 @@ body {
 }
 
 #info {
-    text-align: center;
     width: 400px;
     height: 50px;
     margin: auto;
     margin-top: 50px;
     padding: 10px;
+    text-align: center;
     border-radius: 20px;
     border: solid #666666;
     background-color: #5badff;
+}
+
+label {
+  font-family: Comic Sans MS;
 }
 
 p {
@@ -115,6 +119,7 @@ p {
     position: relative;
     bottom: 12px;
   }
+
   #restart {
     display: none;
   }
