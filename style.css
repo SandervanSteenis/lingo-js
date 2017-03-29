@@ -13,6 +13,14 @@ body {
   text-align: center;
 }
 
+label {
+  font-family: Comic Sans MS;
+}
+
+p {
+  font-family: Comic Sans MS;
+}
+
 .letter {
   background: #5badff;
   border: solid #666666;
@@ -64,15 +72,6 @@ body {
     border-radius: 20px;
     border: solid #666666;
     background-color: #5badff;
-}
-
-label {
-  font-family: Comic Sans MS;
-}
-
-p {
- font-family: Comic Sans MS;
- color: black;
 }
 
 .green {
