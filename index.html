@@ -2,10 +2,47 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Lingo!</title>
   <link rel="icon" type="image/png" href="img/icon.png"/>
+  <title>Lingo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="words-nl.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
-  
+
+
+<img id="logo" src="img/logo.png">
+
+<br><br>
+
+
+<button id="restart" onclick="restart()">Nog een keer?</button>
+
+<div class="form">
+  <label for="text">Raad het woord:</label><input type="text" id="input">
+   <button type="button" onclick="game.check()">Go!</button>
+  </div>
+<div class="letters">
+<div class="letter">
+  <h1 id="letter0"></h1>
+</div>
+<div class="letter">
+  <h1 id="letter1"></h1>
+</div>
+<div class="letter">
+  <h1 id="letter2"></h1>
+</div>
+<div class="letter">
+  <h1 id="letter3"></h1>
+</div>
+<div class="letter">
+  <h1 id="letter4"></h1>
+</div>
+</div>
+
+<p id="info"><span class="green">Groen</span> = Letter is goed<br>
+<span class="yellow">Geel</span> = Letter staat op de verkeerde plaats</p>
+
 </body>
 </html>

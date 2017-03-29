@@ -1,0 +1,121 @@
+body {
+  background: #ccccff;
+}
+
+#logo {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 10px auto 15px;
+  text-align: center;
+}
+
+.letter {
+  background: #5badff;
+  border: solid #666666;
+  margin-right: -7px;
+  border-radius: 20px;
+  display: inline-block;  
+}
+
+.letters {
+  text-align: center;
+}
+
+#letter0 {
+  font-family: Segoe UI light;
+  margin-top: 9px;
+}
+
+#letter1 {
+  font-family: Segoe UI light;
+  margin-top: 9px;
+}
+
+#letter2 {
+  font-family: Segoe UI light;
+  margin-top: 9px;
+}
+
+#letter3 {
+  font-family: Segoe UI light;
+  margin-top: 9px;
+}
+
+#letter4 {
+  font-family: Segoe UI light;
+  margin-top: 9px;
+}
+
+#restart {
+  display: none;
+}
+
+#info {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid #666666;
+    background-color: #5badff;
+}
+
+p {
+ font-family: Comic Sans MS;
+ color: black;
+}
+
+.green {
+  color: #15ff00;
+}
+
+.yellow {
+  color: #ffff00;
+}
+
+@media screen and (min-width: 300px){
+  .letter {
+    width: 50px;
+    height: 50px;
+  }
+  #submit{
+  margin-top: 5px;
+  width: 80px;
+  height: 30px;
+  font-size: 17px;
+  }
+  h1 {
+    font-size: 35px;
+    position: relative;
+    bottom: 14px;
+  }
+  #restart {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px){
+  .letter {
+    width: 70px;
+    height: 70px;
+  }
+  #submit {
+  margin-top: auto;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  }
+  h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 12px;
+  }
+  #restart {
+    display: none;
+  }
+}
